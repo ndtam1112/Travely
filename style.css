@@ -6,6 +6,8 @@
     --primary-color: #0f1014;
     --secondary-color: #1c1c1d;
     --third-color: #256b43;
+    --thirdd-color: #13221d;
+    --thirddd-color: #239e58;
     --four-color: #181919;
     --main-text-color: #fff;
     --secondary-text-color: #9f9fa1;
@@ -133,4 +135,56 @@ span.cta {
     color: var(--secondary-text-color);
     font-size: 12px;
     letter-spacing: 1px;
+}
+
+.grid {
+    width: 100vw;
+    display: flex;
+    overflow: hidden;
+}
+
+.column {
+    width: 25%;
+}
+
+.destination {
+    margin-top: 16px;
+}
+
+.des-text {
+    display: flex;
+}
+
+button.des {
+    background-color: var(--thirdd-color);
+    color: var(--thirddd-color);
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+h3.des {
+    width: 50%;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+p.des {
+    width: 50%;
+    font-size: 20px;
+    color: var(--secondary-text-color);
+}
+
+.ava {
+    height: 400px;
+
+}
+
+.grid-1 {
+    width: 50%;
+    display: flex;
+}
+
+.columnn {
+    width: 300px;
 }
