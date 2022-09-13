@@ -175,9 +175,30 @@ p.des {
     color: var(--secondary-text-color);
 }
 
+p.des a {
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+
 .ava {
     height: 400px;
+    
+}
 
+.photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.photo .started {
+    margin-top: 16px;
+    width: fit-content;
+}
+.gridd {
+    display: flex;
+    overflow: hidden;
 }
 
 .grid-1 {
@@ -186,5 +207,22 @@ p.des {
 }
 
 .columnn {
-    width: 300px;
+    width: 50%;
+}
+
+h4.title {
+    font-size: 18px;
+}
+
+p.detail {
+    font-size: 14px;
+    color: var(--secondary-text-color);
+    margin-top: 16px;
+}
+
+a.readmore {
+    text-decoration: none;
+    color: var(--main-text-color);
+    font-weight: bold;
+
 }
